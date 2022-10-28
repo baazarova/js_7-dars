@@ -26,3 +26,18 @@
 //     }
 // }
 //  plusNumber(a)
+
+
+
+//PROBLEM 33
+
+let son = prompt('son kiriting');
+let idf = 0;
+
+for(let i = 2; i < son; i++){
+    if(son % i == 0){
+        idf += 1;
+    }
+}
+
+idf ? console.log('son tub emas') : console.log('son tub');
