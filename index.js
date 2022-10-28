@@ -21,3 +21,19 @@
 
 
 
+//constructor function
+
+function car(nom, rang, narx){
+    this.name = nom;
+    this.color = rang;
+    this.price = narx;
+}
+
+let car1 = new car('malibu', 'qora', '80 000')
+let car2 = new car('mersedez', 'oq', '200 000')
+
+console.log(car1);
+console.log(car2);
+
+
+
